@@ -1,0 +1,25 @@
+TUTORIAL: https://tutorial.djangogirls.org
+
+Lanzar el entorno virtual:
+..hfsproject $>hfsvenv\Scripts\inicialice
+
+Crear el projecto desde Django:
+..hfsproject $>django-admin.exe startproject mysite .
+
+Ficheros importantes:
+>>..\hfsproject\manage.py: se encarga de lanzar el servidor, sin instalar
+nada adicional.
+>>..\hfsproject\mysite\settings.py: contiene la configuraciçon del sitio
+en el que estamos trabajando.
+
+Crear una base de datos para python (en el motor por defecto mysql lite 3):
+..hfsproject $>python manage.py migrat
+
+Lanzar el servidor:
+..hfsproject $>python manage.py runserver
+
+Crear una aplicación:
+..hfsproject $>python manage.py startapp blog
+
+Crear las tablas de la pl
+..hfsproject $>python manage.py makemigrations blog
