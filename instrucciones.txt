@@ -1,8 +1,8 @@
-TUTORIAL: https://tutorial.djangogirls.org
+﻿TUTORIAL: https://tutorial.djangogirls.org
 CURRENT: https://tutorial.djangogirls.org/en/css/
 
 Lanzar el entorno virtual:
-..hfsproject $>hfsvenv\Scripts\inicialice
+..hfsproject $>hfsvenv\Scripts\activate
 
 Crear el projecto desde Django:
 ..hfsproject $>django-admin.exe startproject mysite .
